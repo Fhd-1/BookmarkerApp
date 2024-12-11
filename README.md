@@ -1,5 +1,7 @@
 # Watch the Demo on Youtube
-### Click on the Image
+### Right click and open in a new tab
+
+
 
 <p align="center">
   <a href="https://youtu.be/qcAMPnIRpFQ?si=jAmhbbCJ6lho5Ec3" target="_blank" rel="noopener noreferrer">
