@@ -1,0 +1,135 @@
+/* index.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* App container */
+.app {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1 1 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+li span {
+  flex: 1 1 auto;
+}
+
+li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* Button group inside list items */
+li div {
+  display: flex;
+  gap: 5px;
+}
+
+/* Edit and Delete buttons */
+li button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+li button:first-child {
+  background-color: #28a745; /* Green for Edit */
+}
+
+li button:first-child:hover {
+  background-color: #218838;
+}
+
+li button:last-child {
+  background-color: #dc3545; /* Red for Delete */
+}
+
+li button:last-child:hover {
+  background-color: #c82333;
+}
+
+/* Edit form buttons */
+form button[type="submit"] {
+  background-color: #28a745; /* Green for Update */
+}
+
+form button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+form button[type="button"] {
+  background-color: #6c757d; /* Gray for Cancel */
+}
+
+form button[type="button"]:hover {
+  background-color: #5a6268;
+}
